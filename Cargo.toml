@@ -1,0 +1,15 @@
+[package]
+name = "neuralnetwork"
+version = "0.1.0"
+authors = ["殷绍昕 <airuqixue@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ndarray = "0.14.0"
+rand = "0.8.1"
+ndarray-rand = "0.13.0"
+
+[profile.dev]
+opt-level = 3
